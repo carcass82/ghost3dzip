@@ -1,0 +1,7 @@
+if (HAVE_PLY)
+    set_directory_properties(PROPERTY COMPILE_DEFINITIONS HAVE_PLY)
+    include_directories(${PLY_SOURCE_DIR})
+endif()
+qt4_wrap_cpp(MOC_SRC GLViewer.hpp MainWindow.hpp)
+add_executable(q3dzip main.cpp GLViewer.cpp MainWindow.cpp Scene.cpp ${MOC_SRC})
+target_link_libraries(q3dzip 3dzip hds ${GUI_LIBRARIES} ${PLY_LIBRARY})

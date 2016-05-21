@@ -1,0 +1,5 @@
+PROJECT_NAME = libhds
+OUTPUT_LANGUAGE = Italian
+INPUT = ../include/hds
+EXTRACT_ALL = YES
+GENERATE_TREEVIEW = YES
