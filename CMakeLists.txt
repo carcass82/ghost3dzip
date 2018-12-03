@@ -9,7 +9,7 @@ if(NOT CMAKE_BUILD_TYPE)
       FORCE)
 endif(NOT CMAKE_BUILD_TYPE)
 
-set(CMAKE_CXX_FLAGS, "-fpermissive")
+set(CMAKE_CXX_FLAGS, "${CMAKE_CXX_FLAGS} -fpermissive")
 
 add_subdirectory(${SPECCOMP_SOURCE_DIR}/3dzip)
 include_directories(${HDS_SOURCE_DIR})

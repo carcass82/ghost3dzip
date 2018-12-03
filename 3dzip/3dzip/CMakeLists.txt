@@ -11,6 +11,8 @@ if (3DZIP_RANGECOD_EXTRAFAST)
     "EXTRAFAST")
 endif()
 
+include_directories(../libhds)
+
 add_library(3dzip ActiveList.cc ActiveStack.cc RangeCod.cc ArCode.cc
     BitStream.cc Compressor.cc CompressorFacade.cc ManifoldCompressorFacade.cc
     ManifoldUncompressorFacade.cc Mesh.cc Reader.cc Symbol.cc Uncompressor.cc

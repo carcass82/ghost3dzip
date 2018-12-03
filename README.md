@@ -5,8 +5,9 @@ Name back then was just *speccomp*.
 
 ### Required Libraries ###
 
+* Boost (sigh. required by dependencies)
 * Eigen v2
-* Qt (optional, for GUI)
+* Qt v4 (optional, for GUI)
 * QGLViewer (optional, for GUI)
 
 ### External Code ###

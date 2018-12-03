@@ -45,9 +45,9 @@ void MainWindow::loadMesh(const char *filename)
 
     else
         objfile = QFileDialog::getOpenFileName(this, tr("Load Mesh..."), QDir::currentPath(),
-                                               "All supported files (*.off *.obj) (*.off *.obj);;"
-                                               "Object File Format (*.off) (*.off);;"
-                                               "Wavefront Obj (*.obj) (*.obj)");
+                                               "All supported files (*.off *.obj);;"
+                                               "Object File Format (*.off);;"
+                                               "Wavefront Obj (*.obj)");
 
     if (!objfile.isNull()) {
 
