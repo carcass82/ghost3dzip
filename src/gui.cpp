@@ -115,8 +115,11 @@ void MainWindow::initGL()
     glEnable(GL_LIGHT0);
     glEnable(GL_NORMALIZE);
 
-    glClearColor(1.0, 1.0, 1.0, 1.0);
-    glColor3f(0.0, 0.0, 0.0);
+    //glClearColor(1.0, 1.0, 1.0, 1.0);
+    //glColor3f(0.0, 0.0, 0.0);
+
+    glClearColor(.0, .0, .0, 1.);
+    glColor3f(1., 1., 1.);
 }
 
 void MainWindow::updateCompGL()

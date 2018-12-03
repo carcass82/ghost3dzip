@@ -18,3 +18,9 @@ Since no one likes to reinvent the wheel, there is some external code used in th
 * Huffman Codec by Marcus Geelnard (marcus.geelnard at home.se) - used for compression of results
 * libHDS (https://code.launchpad.net/~djgaspa/+junk/libhds) - used to load mesh from OFF or OBJ files
 * 3dzip (https://code.launchpad.net/~djgaspa/3dzip/3dzip) - a reference for compression effectiveness / correctness
+
+### GUI ###
+
+A very simple GUI is available
+![specgui](doc/output.jpg)
+
